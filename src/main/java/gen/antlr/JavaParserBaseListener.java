@@ -13,7 +13,7 @@ import org.antlr.v4.runtime.tree.TerminalNode;
 @SuppressWarnings("CheckReturnValue")
 public class JavaParserBaseListener implements JavaParserListener {
 	/**
-	 * {@inheritDo c}
+	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */

@@ -4,30 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51118494-206c-40dd-a910-c34d01834f5e" name="Changes" comment="First init">
-      <change afterPath="$PROJECT_DIR$/gradle_task.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/antlr/JavaLexer.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/antlr/JavaParser.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/antlr/KotlinLexer.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/antlr/KotlinLexer.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/antlr/KotlinParser.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/antlr/UnicodeClasses.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/antlr/UnicodeClasses.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/internal/ProjectInfoExtension.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/internal/ProjectInfoTask.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/javaParsing/JavaClassListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/javaParsing/JavaParserHandler.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinParsing/KotlinClassListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinParsing/KotlinParseHandler.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="51118494-206c-40dd-a910-c34d01834f5e" name="Changes" comment="Created plugin">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/antlr/KotlinLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gen/antlr/KotlinLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/antlr/KotlinLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gen/antlr/KotlinLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/antlr/KotlinLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gen/antlr/KotlinLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/antlr/KotlinParser.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gen/antlr/KotlinParser.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/antlr/KotlinParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gen/antlr/KotlinParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/antlr/KotlinParser.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gen/antlr/KotlinParser.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/antlr/KotlinParserBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gen/antlr/KotlinParserBaseListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/antlr/KotlinParserBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gen/antlr/KotlinParserBaseVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/antlr/KotlinParserListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gen/antlr/KotlinParserListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/antlr/KotlinParserVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gen/antlr/KotlinParserVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gen/antlr/JavaParserBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gen/antlr/JavaParserBaseListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/ProjectInfoPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ProjectInfoPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kotlinParsing/KotlinClassListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinParsing/KotlinClassListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kotlinParsing/KotlinParseHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinParsing/KotlinParseHandler.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +73,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -112,11 +111,11 @@
       <recent name="$PROJECT_DIR$/libs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/gen/antlr" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/antlr" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/libs/spec" />
-      <recent name="$PROJECT_DIR$/libs/kotlin-grammar-parser/0.1" />
     </key>
     <key name="CreateKotlinClassDialog.RecentsKey">
       <recent name="kotlinParsing" />
@@ -126,7 +125,7 @@
       <recent name="org.eka12.info" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="Gradle.KFD-ProjectInfoPlugin [publishPlugins]">
     <configuration name="KFD-ProjectInfoPlugin [generateGrammarSource]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -171,7 +170,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="KFD-ProjectInfoPlugin [publishToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KFD-ProjectInfoPlugin [login]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -182,7 +181,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="publishToMavenLocal" />
+            <option value="login" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,18 +192,18 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="KFD-ProjectInfoPlugin [publish]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KFD-ProjectInfoPlugin [publishPlugins]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="publish" />
+            <option value="publishPlugins" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -224,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.KFD-ProjectInfoPlugin [publishPlugins]" />
+        <item itemvalue="Gradle.KFD-ProjectInfoPlugin [login]" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Gradle.KFD-ProjectInfoPlugin [generateGrammarSource]" />
         <item itemvalue="Gradle.KFD-ProjectInfoPlugin [generateTestGrammarSource]" />
-        <item itemvalue="Gradle.KFD-ProjectInfoPlugin [publishToMavenLocal]" />
-        <item itemvalue="Gradle.KFD-ProjectInfoPlugin [publish]" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +243,8 @@
       <workItem from="1701270282837" duration="22382000" />
       <workItem from="1701466640728" duration="2795000" />
       <workItem from="1701469756422" duration="14933000" />
-      <workItem from="1701637776730" duration="22513000" />
+      <workItem from="1701637776730" duration="26344000" />
+      <workItem from="1701707112211" duration="1072000" />
     </task>
     <task id="LOCAL-00001" summary="First init">
       <option name="closed" value="true" />
@@ -254,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701104544665</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created plugin">
+      <option name="closed" value="true" />
+      <created>1701703991761</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701703991761</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +287,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First init" />
-    <option name="LAST_COMMIT_MESSAGE" value="First init" />
+    <MESSAGE value="Created plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created plugin" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

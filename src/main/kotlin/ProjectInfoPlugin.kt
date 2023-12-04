@@ -12,5 +12,4 @@ open class ProjectInfoPlugin: Plugin<Project> {
             }
         }
     }
-
 }

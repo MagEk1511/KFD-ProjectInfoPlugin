@@ -1,9 +1,9 @@
 package kotlinParsing
 
-import antlr.KotlinParser.ClassDeclarationContext
-import antlr.KotlinParser.FunctionDeclarationContext
-import antlr.KotlinParser.ObjectDeclarationContext
-import antlr.KotlinParserBaseListener
+import gen.antlr.KotlinParser.ClassDeclarationContext
+import gen.antlr.KotlinParser.FunctionDeclarationContext
+import gen.antlr.KotlinParser.ObjectDeclarationContext
+import gen.antlr.KotlinParserBaseListener
 import org.antlr.v4.runtime.ParserRuleContext
 
 class KotlinClassListener : KotlinParserBaseListener() {

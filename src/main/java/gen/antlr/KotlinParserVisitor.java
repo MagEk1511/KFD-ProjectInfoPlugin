@@ -1,5 +1,5 @@
 // Generated from /Users/eka/Projects/KFD-ProjectInfoPlugin/src/main/kotlin/antlr/KotlinParser.g4 by ANTLR 4.13.1
-package antlr;
+package gen.antlr;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
 /**

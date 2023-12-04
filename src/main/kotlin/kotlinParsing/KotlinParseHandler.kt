@@ -1,7 +1,7 @@
 package kotlinParsing
 
-import antlr.KotlinLexer
-import antlr.KotlinParser
+import gen.antlr.KotlinLexer
+import gen.antlr.KotlinParser
 import org.antlr.v4.runtime.CharStreams
 import org.antlr.v4.runtime.CommonTokenStream
 import org.antlr.v4.runtime.tree.ParseTreeWalker
