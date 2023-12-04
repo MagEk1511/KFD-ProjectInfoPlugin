@@ -10,3 +10,5 @@ plugins {
 }
 
 rootProject.name = "KFD-ProjectInfoPlugin"
+include("src:main:untitled")
+findProject(":src:main:untitled")?.name = "untitled"
