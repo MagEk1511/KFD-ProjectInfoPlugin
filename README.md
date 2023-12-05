@@ -1,5 +1,5 @@
 # Project Info Plugin
-Thi plugin provides ypu with information about number of lines, classes and functions of Koltin or
+This plugin provides you with information about number of lines, classes and functions of Koltin or
 Java code.
 
 ## Connecting Plugin
